@@ -17,6 +17,7 @@ services:
     ports:
       - "10014:8069"
       - "587:587"
+      - "25:25"
     tty: true
     command: -- --dev=reload
 #    command: odoo scaffold /mnt/extra-addons/custom_module
